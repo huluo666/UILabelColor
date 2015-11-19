@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		439892361BFDB30500E94D65 /* 001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439892351BFDB30500E94D65 /* 001@2x.png */; };
 		43A46AAB1BEAF5FB00CABBEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A46AAA1BEAF5FB00CABBEE /* main.m */; };
 		43A46AAE1BEAF5FB00CABBEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A46AAD1BEAF5FB00CABBEE /* AppDelegate.m */; };
 		43A46AB11BEAF5FB00CABBEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A46AB01BEAF5FB00CABBEE /* ViewController.m */; };
@@ -15,8 +16,8 @@
 		43A46AB91BEAF5FB00CABBEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A46AB71BEAF5FB00CABBEE /* LaunchScreen.storyboard */; };
 		43A46AC41BEAF5FB00CABBEE /* UILabelColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A46AC31BEAF5FB00CABBEE /* UILabelColorTests.m */; };
 		43A46ACF1BEAF5FB00CABBEE /* UILabelColorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A46ACE1BEAF5FB00CABBEE /* UILabelColorUITests.m */; };
-		43A46ADE1BEAF63200CABBEE /* UILabel+ColorText.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A46ADD1BEAF63200CABBEE /* UILabel+ColorText.m */; settings = {ASSET_TAGS = (); }; };
-		43A46AE71BEAFA0600CABBEE /* NSMutableAttributedString+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A46AE61BEAFA0600CABBEE /* NSMutableAttributedString+Color.m */; settings = {ASSET_TAGS = (); }; };
+		43A46ADE1BEAF63200CABBEE /* UILabel+ColorText.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A46ADD1BEAF63200CABBEE /* UILabel+ColorText.m */; };
+		43A46AE71BEAFA0600CABBEE /* NSMutableAttributedString+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A46AE61BEAFA0600CABBEE /* NSMutableAttributedString+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		439892351BFDB30500E94D65 /* 001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001@2x.png"; sourceTree = "<group>"; };
 		43A46AA61BEAF5FB00CABBEE /* UILabelColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILabelColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A46AAA1BEAF5FB00CABBEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43A46AAC1BEAF5FB00CABBEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				43A46ADD1BEAF63200CABBEE /* UILabel+ColorText.m */,
 				43A46AE51BEAFA0600CABBEE /* NSMutableAttributedString+Color.h */,
 				43A46AE61BEAFA0600CABBEE /* NSMutableAttributedString+Color.m */,
+				439892351BFDB30500E94D65 /* 001@2x.png */,
 			);
 			path = UILabelColor;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439892361BFDB30500E94D65 /* 001@2x.png in Resources */,
 				43A46AB91BEAF5FB00CABBEE /* LaunchScreen.storyboard in Resources */,
 				43A46AB61BEAF5FB00CABBEE /* Assets.xcassets in Resources */,
 				43A46AB41BEAF5FB00CABBEE /* Main.storyboard in Resources */,
@@ -508,6 +512,7 @@
 				43A46AD51BEAF5FB00CABBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43A46AD61BEAF5FB00CABBEE /* Build configuration list for PBXNativeTarget "UILabelColorTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +521,7 @@
 				43A46AD81BEAF5FB00CABBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43A46AD91BEAF5FB00CABBEE /* Build configuration list for PBXNativeTarget "UILabelColorUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +530,7 @@
 				43A46ADB1BEAF5FB00CABBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
