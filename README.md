@@ -3,7 +3,9 @@
 UILabel分类，对文本进行格式化显示，创建丰富多彩的文字。简单易用，特别适合于轻量级使用
 
 #使用
-设置文字颜色
+导入 #import "UILabel+ColorText.h"
+
+设置文字颜色,字体等
 ```Objective-C
   UILabel *labelC = [[UILabel alloc] init];
 
